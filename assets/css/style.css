@@ -1,0 +1,18 @@
+.navbar-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar {
+    background-color: white !important;
+    color: #3b2f2f;
+}
+
+.nav-link {
+    color: #3b2f2f !important;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
