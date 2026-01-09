@@ -1,15 +1,47 @@
 
-.hero-section {
-    background-image: url('../images/herospa.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+/* Navbar Styling */
+.navbar-custom {
+    color: #3B2F2F;
 }
+
+.navbar-custom .nav-link {
+    color: #3B2F2F;
+}
+
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
+
+
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.services-title,
+.wellness-tips-title {
+    font-family: 'Handlee', cursive;
+}
+
+/* Button Styling */
+.btn {
+    color: #3B2F2F;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') no-repeat center center;
+    background-size: cover;
+    color: #FFEBD4;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    z-index: 1000;
+}
+
+
 
 .hero-section::before {
     content: '';
@@ -18,7 +50,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.0);
     z-index: 1;
 }
 
@@ -44,11 +76,11 @@
 /* Services Section */
 .services-section {
     padding: 60px 0;
-    background-color: #f9f8f6;
+ 
 }
 
 .services-title {
-    text-align: center;
+    
     color: #3B2F2F;
     font-weight: bold;
     margin-bottom: 50px;
@@ -87,6 +119,37 @@
     padding: 0 15px 15px 15px;
     font-size: 0.95rem;
     line-height: 1.5;
+}
+
+/* Wellness Tips Section */
+.wellness-tips-section {
+    --bs-border-width: none;
+}
+
+/* Testimonials */
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px;
+}
+
+.testimonial {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial-person {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    color: #FFEBD4;
+    background-color: #6f4e37;
+    --bs-link-color-rgb: #FFEBD4;
+    padding: 20px 0;
 }
 
 /* Footer social icons */
