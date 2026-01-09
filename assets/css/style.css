@@ -89,6 +89,16 @@
     line-height: 1.5;
 }
 
+/* Footer social icons */
+.social-media-links a {
+    color: #3B2F2F;
+    font-size: 1.25rem;
+}
+
+.social-media-links a:hover {
+    color: #0d6efd; /* Bootstrap primary */
+}
+
 @media (max-width: 768px) {
     .hero-section {
         height: 300px;
