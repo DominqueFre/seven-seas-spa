@@ -28,12 +28,14 @@
             background-size: cover;
             color: #FFEBD4;
             padding: 100px 0;
+            background-repeat: no-repeat;
+           
+           
         }
 
-        .hero-section h1,
-        .services-section h2,
-        .service-card-title,
-        .wellness-tips-title {
+        h1,
+      h2, h3, h4, h5, h6,
+        .services-title, .wellness-tips-title {
             font-family: 'Handlee', cursive;
         }
 
@@ -72,9 +74,9 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-custom">
-        <div class="container-fluid">
+<main >
+    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-custom sticky-top">
+        <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/images/logo.png" alt="Logo" width="30" height="30">
                 Seven Seas Spa
@@ -110,8 +112,8 @@
 
     <!-- Services Section -->
     <section id="services" class="services-section">
-        <div class="container section w-100">
-            <h2 class="services-title gy-4">Our Services</h2>
+        <div class="container section w-100 py-5">
+            <h2 class="services-title py-4 gy-4">Our Services</h2>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card card h-100">
@@ -230,7 +232,7 @@
             </div>
         </div>
     </section>
-
+</main>
     <!-- footer with 2022 copyright and social media links with icons -->
     <footer id="contact">
         <section class="footer-section">
